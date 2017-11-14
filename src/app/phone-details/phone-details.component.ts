@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation , Input} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 // import { PhoneService } from './../shared/phone.service';
 import { PhoneService } from './../phone.service';
