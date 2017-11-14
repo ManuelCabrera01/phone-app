@@ -32,3 +32,4 @@ export class PhoneDetailsComponent implements OnInit {
     }
 
 }
+// console.log()
