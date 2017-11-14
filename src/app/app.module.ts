@@ -8,6 +8,7 @@ import { RouterModule } from "@angular/router";
 import { routes } from './app.routing';
 import { FormsModule } from '@angular/forms';
 import { HttpModule} from '@angular/http';
+import {PhoneService} from './phone.service'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { HttpModule} from '@angular/http';
     HttpModule,
     RouterModule.forRoot(routes),
   ],
-  providers: [],
+  providers: [PhoneService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
